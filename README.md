@@ -1,3 +1,48 @@
+# netflix-clone
+
+## Tools used
+
+### VS Code
+
+IDE
+
+### TMDB
+
+Movie database used as a 3rd party tool to get movie data. Client makes a request to this service and they return movie data. We pull that info in and put it in our front-end. Created an API key and bearer token for authentication to the API.
+
+### Postman
+
+Allows you to send a request to any API or server. Used to test the API get request. API URL: https://api.themoviedb.org/3/movie/550?api_key=. Bearer token:
+
+### REACT
+
+Used to build scalable apps that wraps HTML, CSS, and Java Script and renders intelligently.
+
+### npx
+
+Package manager for NodeJS
+
+### Firebase
+
+Used to host the website, db, authentication
+
+## Steps
+
+1. Create TMDB account and API key
+   - We'll make an API request to the TMDB service. In order to authenticate to the service, we need a API key
+2. Setup Firebase hosting:
+   - register app
+   - install Firebase CLI
+   - build > hosting. create hosting
+3. Download npx to use npm modules instead of an SDK
+4. Create a new React app npx dependencies: `npx create-react-app netflix-clone`
+5. `npm start`
+6. Install axios to use instead of Postman to send request from our code: `npm i axios`
+7. Add a requests.js file
+8. Add fetch endpoints to requests.js file
+9. Create a axios.js file. Used so every request has the same base URL. Pass `instance` a base URL
+10. Get movies & build rows
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
