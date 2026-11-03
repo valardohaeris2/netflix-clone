@@ -10,7 +10,7 @@
   padding: 20px;
 }
 
-.row_posters::-webkit-scrollbar {
+.row__posters::-webkit-scrollbar {
   display: none;
 }
 
@@ -30,7 +30,7 @@
   max-height: 250px;
 }
 
-.row_posterLarge:hover {
+.row__posterLarge:hover {
   transform: scale(1.09);
   opacity: 1;
 }
