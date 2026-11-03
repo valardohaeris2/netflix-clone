@@ -1,5 +1,8 @@
 # netflix-clone
 
+# Updates
+Remove hardcoded keys into a .env file
+
 ## Tools used
 
 ### VS Code
