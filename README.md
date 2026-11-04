@@ -1,7 +1,7 @@
 # netflix-clone
 
 # Updates
-Remove hardcoded keys into a .env file
+3Nov26: Added .env file
 
 ## Tools used
 
